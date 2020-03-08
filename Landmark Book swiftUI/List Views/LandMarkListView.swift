@@ -13,18 +13,12 @@ struct LandMarkListView: View {
     var body: some View {
         NavigationView {
             List(landMarkArray){ countries in
-                HStack{
-                    Image(countries.imageName)
-                        .resizable()
-                        .frame(width: 60.0, height: 60.0)
-                        .padding(10)
-NavigationLink(destination:DetailsLandMArkView(chosenLandmark:countries)){
-                        Text(countries.name)
-                            .font(.subheadline)
-                    }
-                    
+                NavigationLink(destination:DetailsLandMArkView(chosenLandmark:countries)){
+                    ListRow(image: Image(countries.imageName), text: Text(countries.name))
                 }
+                
             }
+                
             .navigationBarTitle("Landmark Book")
         }
     }
