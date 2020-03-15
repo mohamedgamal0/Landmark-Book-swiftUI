@@ -32,3 +32,5 @@ struct ListRow_Previews: PreviewProvider {
         ListRow().previewLayout(.sizeThatFits)
     }
 }
+
+//Test GitFlow
