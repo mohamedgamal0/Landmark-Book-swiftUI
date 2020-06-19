@@ -1,7 +1,7 @@
 # Landmark Book using SwiftUI
 
 ![Xcode 11.5](https://img.shields.io/badge/Xcode-11.0-blue) 
-![SwiftUI](https://img.shields.io/badge/Swift-5.0-green) 
+![SwiftUI](https://img.shields.io/badge/SwiftUi-5.0-green) 
 ![iOS 13](https://img.shields.io/badge/iOS%20-13-brightgreen)
 
 
