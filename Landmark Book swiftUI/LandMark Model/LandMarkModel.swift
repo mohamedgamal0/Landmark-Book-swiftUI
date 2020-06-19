@@ -41,5 +41,9 @@ var LandMark5 = LandMarkModel(name: "Big Ben", imageName: "london", country: "Lo
 
 var LandMark6 = LandMarkModel(name: "Colosseum", imageName: "Rome", country: "Rome", category: "Archaeology", coordinates: Coordinates(latitude: 41.8902142, longitude: 12.4900422))
 
+var LandMark7 = LandMarkModel(name: "Tokyo", imageName: "Tokyo", country: "japan", category: "technological", coordinates: Coordinates(latitude: 35.6762, longitude: 139.6503))
 
-var landMarkArray = [LandMark1,LandMark2,LandMark3,LandMark4,LandMark5,LandMark6]
+var LandMark8 = LandMarkModel(name: "Maldives", imageName: "Maldives", country: "Maldives", category: "Coastal", coordinates: Coordinates(latitude: 73.22068, longitude: 3.20277))
+  
+
+var landMarkArray = [LandMark1,LandMark2,LandMark3,LandMark4,LandMark5,LandMark6,LandMark7,LandMark8]
